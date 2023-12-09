@@ -1,8 +1,7 @@
 <?php
 // Indexed Array
 $class = array("fybca", "sybca", "tybca");
-print_r($class);
-Page No.
+print_r($class);
 echo "<br> Show me a {$class[1]}<br>"; 
 // Use curly braces to access the array element.
 
