@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Registration Form</title>
+</head>
+<body>
+ <h2>Registration Form</h2>
+ <form action="process.php" method="post">
+ <label for="name">Name:</label>
+ <input type="text" name="name" id="name" required><br><br>
+
+ <label for="email">Email:</label>
+ <input type="email" name="email" id="email" required><br><br>
+ <label for="gender">Gender:</label>
+ <input type="radio" name="gender" value="Male" id="gendermale">Male
+ <input type="radio" name="gender" value="Female" id="genderfemale">Female<br><br>
+ <label for="country">Country:</label>
+ <select name="country" id="country">
+ <option value="USA">United States</option>
+ <option value="Canada">Canada</option>
+ <option value="UK">United Kingdom</option>
+ <option value="Other">Other</option>
+ </select><br><br>
+ <label for="newsletter">Subscribe to Newsletter:</label>
+ <input type="checkbox" name="newsletter" id="newsletter"
+value="Yes"><br><br>
+ <input type="submit" value="Submit">
+ </form>
+</body>
+</html>
